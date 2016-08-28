@@ -1,0 +1,17 @@
+baseurl = "http://seattlefilmmakers.com/"
+languageCode = "en-us"
+title = "Seattle Filmmakers Slack"
+theme = "doomsparkle"
+SectionPagesMenu = "main"
+
+[[menu.main]]
+    name = "code of conduct"
+    identifier = "coc"
+    url = "/conduct/"
+    weight = 95
+
+[[menu.main]]
+    name = "join"
+    identifier = "joinSlack"
+    url = "/join/"
+    weight = 90

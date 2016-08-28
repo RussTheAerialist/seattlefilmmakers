@@ -1,0 +1,38 @@
+@import "baseline";
+@import "header";
+@import "home";
+@import "conduct";
+
+section {
+  margin-top: 10vh;
+  header {
+    h1 {
+      font-size: 3vh;
+      margin-bottom: 1.5vh;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1vh 0;
+
+  li {
+    padding: 0 1vw;
+
+    a {
+      text-decoration: none;
+    }
+
+    &.disabled a {
+      color: lighten($backgroundColor, 25%);
+      cursor: default;
+    }
+
+    &.active a {
+      color: $menuActiveColor;
+    }
+  }
+}

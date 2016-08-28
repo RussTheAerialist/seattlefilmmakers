@@ -1,0 +1,75 @@
+.mainHeader {
+  width: 100%;
+
+  margin: auto;
+  padding: 2vh 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    background: $menuActiveColor;
+    color: $backgroundColor;
+    width: 7vw;
+    height: 7vw;
+    padding: 5vh;
+    flex-grow: 1;
+    margin-right: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & a {
+      color: $backgroundColor;
+
+      &:hover {
+        color: $backgroundColor;
+      }
+    }
+  }
+
+  ul {
+    flex-grow: 5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    align-self: flex-end;
+
+    li {
+      border-bottom: 3px solid $menuColor;
+      padding-right: 3vw;
+      margin: 0 2vw;
+
+      &.active {
+        border-color: $menuActiveColor;
+
+        & a {
+          color: $menuActiveColor;
+          text-decoration: none;
+        }
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+
+      a {
+        color: $menuColor;
+        text-decoration: none;
+      }
+
+      &:hover {
+        border-color: $menuHoverColor;
+
+        a {
+          color: $menuHoverColor;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.conduct {
+  max-width: 40em;
+  margin: auto;
+
+  ul {
+    margin: 2em 0 2em 1.1em;
+    list-style-type: square;
+    list-style-position: outside;
+    list-style-image: none;
+
+    li {
+      margin-bottom: 0.5em;
+      display: list-item;
+    }
+  }
+
+  h2 {
+    font-size: 2em !important;
+    margin-bottom: 1vh;
+  }
+}
