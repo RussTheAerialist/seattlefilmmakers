@@ -49,7 +49,7 @@ Harassment includes:
 
 If you are being harassed by a member of <span class="community-name">Seattle Filmmakers Slack</span>,
 notice that someone else is being harassed, or have any other concerns, please contact
-the RESPONSE TEAM at [email address or other contact point]. If the person who is harassing you
+the RESPONSE TEAM at <a id="reporting-id">362t343336382x322v1s2s33333137342p362z302t1a2r3331</a>. If the person who is harassing you
 is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.
 
 This code of conduct applies to <span class="community-name">Seattle Filmmakers Slack</span> spaces,
@@ -79,5 +79,4 @@ Participants asked to stop any harassing behavior are expected to comply immedia
 If a participant engages in harassing behavior, RESPONSE TEAM may take any action they
 deem appropriate, up to and including expulsion from all
 <span class="community-name">Seattle Filmmakers Slack</span> spaces and identification
-of the participant as a harasser to other <span class="community-name">Seattle Filmmakers Slack</span> members
-or the general public.
+of the participant as a harasser to other <span class="community-name">Seattle Filmmakers Slack</span> members or the general public.
